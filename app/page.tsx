@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import Link from 'next/link';
+import { imageUrls } from '@/lib/image-urls';
 import {
   TrendingUp,
   BarChart3,
@@ -541,50 +542,50 @@ export default function Home() {
 
               <div className="flex animate-scroll-right whitespace-nowrap">
                 <div className="flex gap-4 min-w-max">
-                  <img src="/btc.png" alt="BTC/USD" className="h-32 rounded-2xl border border-purple-500/30" />
-                  <img src="/card_1.png" alt="XAU/USD" className="h-32 rounded-2xl border border-purple-500/30" />
-                  <img src="/eth.png" alt="ETH/USD" className="h-32 rounded-2xl border border-purple-500/30" />
-                  <img src="/gbpusd.png" alt="GBP/USD" className="h-32 rounded-2xl border border-purple-500/30" />
-                  <img src="/image copy.png" alt="USD/JPY" className="h-32 rounded-2xl border border-purple-500/30" />
+                  <img src="{imageUrls["btc.png"]}" alt="BTC/USD" className="h-32 rounded-2xl border border-purple-500/30" />
+                  <img src="{imageUrls["card_1.png"]}" alt="XAU/USD" className="h-32 rounded-2xl border border-purple-500/30" />
+                  <img src="{imageUrls["eth.png"]}" alt="ETH/USD" className="h-32 rounded-2xl border border-purple-500/30" />
+                  <img src="{imageUrls["gbpusd.png"]}" alt="GBP/USD" className="h-32 rounded-2xl border border-purple-500/30" />
+                  <img src="{imageUrls["image copy.png"]}" alt="USD/JPY" className="h-32 rounded-2xl border border-purple-500/30" />
                 </div>
                 <div className="flex gap-4 min-w-max ml-4" aria-hidden="true">
-                  <img src="/btc.png" alt="BTC/USD" className="h-32 rounded-2xl border border-purple-500/30" />
-                  <img src="/card_1.png" alt="XAU/USD" className="h-32 rounded-2xl border border-purple-500/30" />
-                  <img src="/eth.png" alt="ETH/USD" className="h-32 rounded-2xl border border-purple-500/30" />
-                  <img src="/gbpusd.png" alt="GBP/USD" className="h-32 rounded-2xl border border-purple-500/30" />
-                  <img src="/image copy.png" alt="USD/JPY" className="h-32 rounded-2xl border border-purple-500/30" />
+                  <img src="{imageUrls["btc.png"]}" alt="BTC/USD" className="h-32 rounded-2xl border border-purple-500/30" />
+                  <img src="{imageUrls["card_1.png"]}" alt="XAU/USD" className="h-32 rounded-2xl border border-purple-500/30" />
+                  <img src="{imageUrls["eth.png"]}" alt="ETH/USD" className="h-32 rounded-2xl border border-purple-500/30" />
+                  <img src="{imageUrls["gbpusd.png"]}" alt="GBP/USD" className="h-32 rounded-2xl border border-purple-500/30" />
+                  <img src="{imageUrls["image copy.png"]}" alt="USD/JPY" className="h-32 rounded-2xl border border-purple-500/30" />
                 </div>
               </div>
 
               <div className="flex animate-scroll-right whitespace-nowrap" style={{ animationDelay: '-6.67s' }}>
                 <div className="flex gap-4 min-w-max">
-                  <img src="/eur1.png" alt="EUR/USD" className="h-32 rounded-2xl border border-purple-500/30" />
-                  <img src="/gj.png" alt="GBP/JPY" className="h-32 rounded-2xl border border-purple-500/30" />
-                  <img src="/google.png" alt="GOOGL/USD" className="h-32 rounded-2xl border border-purple-500/30" />
-                  <img src="/oil copy.png" alt="WTI/USD" className="h-32 rounded-2xl border border-purple-500/30" />
-                  <img src="/btc.png" alt="BTC/USD" className="h-32 rounded-2xl border border-purple-500/30" />
+                  <img src="{imageUrls["eur1.png"]}" alt="EUR/USD" className="h-32 rounded-2xl border border-purple-500/30" />
+                  <img src="{imageUrls["gj.png"]}" alt="GBP/JPY" className="h-32 rounded-2xl border border-purple-500/30" />
+                  <img src="{imageUrls["google.png"]}" alt="GOOGL/USD" className="h-32 rounded-2xl border border-purple-500/30" />
+                  <img src="{imageUrls["oil copy.png"]}" alt="WTI/USD" className="h-32 rounded-2xl border border-purple-500/30" />
+                  <img src="{imageUrls["btc.png"]}" alt="BTC/USD" className="h-32 rounded-2xl border border-purple-500/30" />
                 </div>
                 <div className="flex gap-4 min-w-max ml-4" aria-hidden="true">
-                  <img src="/eur1.png" alt="EUR/USD" className="h-32 rounded-2xl border border-purple-500/30" />
-                  <img src="/gj.png" alt="GBP/JPY" className="h-32 rounded-2xl border border-purple-500/30" />
-                  <img src="/google.png" alt="GOOGL/USD" className="h-32 rounded-2xl border border-purple-500/30" />
-                  <img src="/oil copy.png" alt="WTI/USD" className="h-32 rounded-2xl border border-purple-500/30" />
-                  <img src="/btc.png" alt="BTC/USD" className="h-32 rounded-2xl border border-purple-500/30" />
+                  <img src="{imageUrls["eur1.png"]}" alt="EUR/USD" className="h-32 rounded-2xl border border-purple-500/30" />
+                  <img src="{imageUrls["gj.png"]}" alt="GBP/JPY" className="h-32 rounded-2xl border border-purple-500/30" />
+                  <img src="{imageUrls["google.png"]}" alt="GOOGL/USD" className="h-32 rounded-2xl border border-purple-500/30" />
+                  <img src="{imageUrls["oil copy.png"]}" alt="WTI/USD" className="h-32 rounded-2xl border border-purple-500/30" />
+                  <img src="{imageUrls["btc.png"]}" alt="BTC/USD" className="h-32 rounded-2xl border border-purple-500/30" />
                 </div>
               </div>
 
               <div className="flex animate-scroll-right whitespace-nowrap" style={{ animationDelay: '-13.33s' }}>
                 <div className="flex gap-4 min-w-max">
-                  <img src="/eth.png" alt="ETH/USD" className="h-32 rounded-2xl border border-purple-500/30" />
-                  <img src="/nvda.png" alt="NVDA/USD" className="h-32 rounded-2xl border border-purple-500/30" />
-                  <img src="/eur1.png" alt="EUR/USD" className="h-32 rounded-2xl border border-purple-500/30" />
-                  <img src="/card_1.png" alt="XAU/USD" className="h-32 rounded-2xl border border-purple-500/30" />
+                  <img src="{imageUrls["eth.png"]}" alt="ETH/USD" className="h-32 rounded-2xl border border-purple-500/30" />
+                  <img src="{imageUrls["nvda.png"]}" alt="NVDA/USD" className="h-32 rounded-2xl border border-purple-500/30" />
+                  <img src="{imageUrls["eur1.png"]}" alt="EUR/USD" className="h-32 rounded-2xl border border-purple-500/30" />
+                  <img src="{imageUrls["card_1.png"]}" alt="XAU/USD" className="h-32 rounded-2xl border border-purple-500/30" />
                 </div>
                 <div className="flex gap-4 min-w-max ml-4" aria-hidden="true">
-                  <img src="/eth.png" alt="ETH/USD" className="h-32 rounded-2xl border border-purple-500/30" />
-                  <img src="/nvda.png" alt="NVDA/USD" className="h-32 rounded-2xl border border-purple-500/30" />
-                  <img src="/eur1.png" alt="EUR/USD" className="h-32 rounded-2xl border border-purple-500/30" />
-                  <img src="/card_1.png" alt="XAU/USD" className="h-32 rounded-2xl border border-purple-500/30" />
+                  <img src="{imageUrls["eth.png"]}" alt="ETH/USD" className="h-32 rounded-2xl border border-purple-500/30" />
+                  <img src="{imageUrls["nvda.png"]}" alt="NVDA/USD" className="h-32 rounded-2xl border border-purple-500/30" />
+                  <img src="{imageUrls["eur1.png"]}" alt="EUR/USD" className="h-32 rounded-2xl border border-purple-500/30" />
+                  <img src="{imageUrls["card_1.png"]}" alt="XAU/USD" className="h-32 rounded-2xl border border-purple-500/30" />
                 </div>
               </div>
             </div>
@@ -720,28 +721,28 @@ export default function Home() {
           <div className="relative">
             <div className="flex animate-scroll whitespace-nowrap">
               <div className="flex items-center gap-24 px-12 min-w-max">
-                <img src="/brandimage-Photoroom.png" alt="Bloomberg" className="h-12 opacity-40 hover:opacity-60 transition-opacity grayscale flex-shrink-0" />
-                <img src="/417-4172451_nasdaq-logo-nasdaq-logo-white-png-clipart-Photoroom.png" alt="NASDAQ" className="h-14 opacity-40 hover:opacity-60 transition-opacity grayscale flex-shrink-0" />
-                <img src="/Barrons_White.png" alt="Barron's" className="h-12 opacity-40 hover:opacity-60 transition-opacity grayscale flex-shrink-0" />
-                <img src="/cnbc-logo-white-Photoroom.png" alt="CNBC" className="h-11 opacity-40 hover:opacity-60 transition-opacity grayscale flex-shrink-0" />
-                <img src="/FT_Horizontal_FullColourREVERSED_RGB-Photoroom.png" alt="Financial Times" className="h-10 opacity-40 hover:opacity-60 transition-opacity grayscale flex-shrink-0" />
-                <img src="/reut.png" alt="Reuters" className="h-12 opacity-40 hover:opacity-60 transition-opacity grayscale flex-shrink-0" />
-                <img src="/images-Photoroom.png" alt="WSJ" className="h-14 opacity-40 hover:opacity-60 transition-opacity grayscale flex-shrink-0" />
-                <img src="/view2x-Photoroom.png" alt="LSEG" className="h-12 opacity-40 hover:opacity-60 transition-opacity grayscale flex-shrink-0" />
-                <img src="/Washington-Post-Photoroom.png" alt="Washington Post" className="h-11 opacity-40 hover:opacity-60 transition-opacity grayscale flex-shrink-0" />
-                <img src="/bbb-Photoroom.png" alt="BBB" className="h-16 opacity-40 hover:opacity-60 transition-opacity grayscale flex-shrink-0" />
+                <img src="{imageUrls["brandimage-Photoroom.png"]}" alt="Bloomberg" className="h-12 opacity-40 hover:opacity-60 transition-opacity grayscale flex-shrink-0" />
+                <img src="{imageUrls["417-4172451_nasdaq-logo-nasdaq-logo-white-png-clipart-Photoroom.png"]}" alt="NASDAQ" className="h-14 opacity-40 hover:opacity-60 transition-opacity grayscale flex-shrink-0" />
+                <img src="{imageUrls["Barrons_White.png"]}" alt="Barron's" className="h-12 opacity-40 hover:opacity-60 transition-opacity grayscale flex-shrink-0" />
+                <img src="{imageUrls["cnbc-logo-white-Photoroom.png"]}" alt="CNBC" className="h-11 opacity-40 hover:opacity-60 transition-opacity grayscale flex-shrink-0" />
+                <img src="{imageUrls["FT_Horizontal_FullColourREVERSED_RGB-Photoroom.png"]}" alt="Financial Times" className="h-10 opacity-40 hover:opacity-60 transition-opacity grayscale flex-shrink-0" />
+                <img src="{imageUrls["reut.png"]}" alt="Reuters" className="h-12 opacity-40 hover:opacity-60 transition-opacity grayscale flex-shrink-0" />
+                <img src="{imageUrls["images-Photoroom.png"]}" alt="WSJ" className="h-14 opacity-40 hover:opacity-60 transition-opacity grayscale flex-shrink-0" />
+                <img src="{imageUrls["view2x-Photoroom.png"]}" alt="LSEG" className="h-12 opacity-40 hover:opacity-60 transition-opacity grayscale flex-shrink-0" />
+                <img src="{imageUrls["Washington-Post-Photoroom.png"]}" alt="Washington Post" className="h-11 opacity-40 hover:opacity-60 transition-opacity grayscale flex-shrink-0" />
+                <img src="{imageUrls["bbb-Photoroom.png"]}" alt="BBB" className="h-16 opacity-40 hover:opacity-60 transition-opacity grayscale flex-shrink-0" />
               </div>
               <div className="flex items-center gap-24 px-12 min-w-max" aria-hidden="true">
-                <img src="/brandimage-Photoroom.png" alt="Bloomberg" className="h-12 opacity-40 hover:opacity-60 transition-opacity grayscale flex-shrink-0" />
-                <img src="/417-4172451_nasdaq-logo-nasdaq-logo-white-png-clipart-Photoroom.png" alt="NASDAQ" className="h-14 opacity-40 hover:opacity-60 transition-opacity grayscale flex-shrink-0" />
-                <img src="/Barrons_White.png" alt="Barron's" className="h-12 opacity-40 hover:opacity-60 transition-opacity grayscale flex-shrink-0" />
-                <img src="/cnbc-logo-white-Photoroom.png" alt="CNBC" className="h-11 opacity-40 hover:opacity-60 transition-opacity grayscale flex-shrink-0" />
-                <img src="/FT_Horizontal_FullColourREVERSED_RGB-Photoroom.png" alt="Financial Times" className="h-10 opacity-40 hover:opacity-60 transition-opacity grayscale flex-shrink-0" />
-                <img src="/reut.png" alt="Reuters" className="h-12 opacity-40 hover:opacity-60 transition-opacity grayscale flex-shrink-0" />
-                <img src="/images-Photoroom.png" alt="WSJ" className="h-14 opacity-40 hover:opacity-60 transition-opacity grayscale flex-shrink-0" />
-                <img src="/view2x-Photoroom.png" alt="LSEG" className="h-12 opacity-40 hover:opacity-60 transition-opacity grayscale flex-shrink-0" />
-                <img src="/Washington-Post-Photoroom.png" alt="Washington Post" className="h-11 opacity-40 hover:opacity-60 transition-opacity grayscale flex-shrink-0" />
-                <img src="/bbb-Photoroom.png" alt="BBB" className="h-16 opacity-40 hover:opacity-60 transition-opacity grayscale flex-shrink-0" />
+                <img src="{imageUrls["brandimage-Photoroom.png"]}" alt="Bloomberg" className="h-12 opacity-40 hover:opacity-60 transition-opacity grayscale flex-shrink-0" />
+                <img src="{imageUrls["417-4172451_nasdaq-logo-nasdaq-logo-white-png-clipart-Photoroom.png"]}" alt="NASDAQ" className="h-14 opacity-40 hover:opacity-60 transition-opacity grayscale flex-shrink-0" />
+                <img src="{imageUrls["Barrons_White.png"]}" alt="Barron's" className="h-12 opacity-40 hover:opacity-60 transition-opacity grayscale flex-shrink-0" />
+                <img src="{imageUrls["cnbc-logo-white-Photoroom.png"]}" alt="CNBC" className="h-11 opacity-40 hover:opacity-60 transition-opacity grayscale flex-shrink-0" />
+                <img src="{imageUrls["FT_Horizontal_FullColourREVERSED_RGB-Photoroom.png"]}" alt="Financial Times" className="h-10 opacity-40 hover:opacity-60 transition-opacity grayscale flex-shrink-0" />
+                <img src="{imageUrls["reut.png"]}" alt="Reuters" className="h-12 opacity-40 hover:opacity-60 transition-opacity grayscale flex-shrink-0" />
+                <img src="{imageUrls["images-Photoroom.png"]}" alt="WSJ" className="h-14 opacity-40 hover:opacity-60 transition-opacity grayscale flex-shrink-0" />
+                <img src="{imageUrls["view2x-Photoroom.png"]}" alt="LSEG" className="h-12 opacity-40 hover:opacity-60 transition-opacity grayscale flex-shrink-0" />
+                <img src="{imageUrls["Washington-Post-Photoroom.png"]}" alt="Washington Post" className="h-11 opacity-40 hover:opacity-60 transition-opacity grayscale flex-shrink-0" />
+                <img src="{imageUrls["bbb-Photoroom.png"]}" alt="BBB" className="h-16 opacity-40 hover:opacity-60 transition-opacity grayscale flex-shrink-0" />
               </div>
             </div>
           </div>
