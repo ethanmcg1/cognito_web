@@ -1,0 +1,22 @@
+export const imageUrls: Record<string, string> = {
+  "btc.png": "https://xaweuetsmhnwuqtqnicu.supabase.co/storage/v1/object/public/images/btc.png",
+  "eth.png": "https://xaweuetsmhnwuqtqnicu.supabase.co/storage/v1/object/public/images/eth.png",
+  "card_1.png": "https://xaweuetsmhnwuqtqnicu.supabase.co/storage/v1/object/public/images/card_1.png",
+  "gbpusd.png": "https://xaweuetsmhnwuqtqnicu.supabase.co/storage/v1/object/public/images/gbpusd.png",
+  "image copy.png": "https://xaweuetsmhnwuqtqnicu.supabase.co/storage/v1/object/public/images/image%20copy.png",
+  "eur1.png": "https://xaweuetsmhnwuqtqnicu.supabase.co/storage/v1/object/public/images/eur1.png",
+  "gj.png": "https://xaweuetsmhnwuqtqnicu.supabase.co/storage/v1/object/public/images/gj.png",
+  "google.png": "https://xaweuetsmhnwuqtqnicu.supabase.co/storage/v1/object/public/images/google.png",
+  "oil copy.png": "https://xaweuetsmhnwuqtqnicu.supabase.co/storage/v1/object/public/images/oil%20copy.png",
+  "nvda.png": "https://xaweuetsmhnwuqtqnicu.supabase.co/storage/v1/object/public/images/nvda.png",
+  "brandimage-Photoroom.png": "https://xaweuetsmhnwuqtqnicu.supabase.co/storage/v1/object/public/images/brandimage-Photoroom.png",
+  "417-4172451_nasdaq-logo-nasdaq-logo-white-png-clipart-Photoroom.png": "https://xaweuetsmhnwuqtqnicu.supabase.co/storage/v1/object/public/images/417-4172451_nasdaq-logo-nasdaq-logo-white-png-clipart-Photoroom.png",
+  "Barrons_White.png": "https://xaweuetsmhnwuqtqnicu.supabase.co/storage/v1/object/public/images/Barrons_White.png",
+  "cnbc-logo-white-Photoroom.png": "https://xaweuetsmhnwuqtqnicu.supabase.co/storage/v1/object/public/images/cnbc-logo-white-Photoroom.png",
+  "FT_Horizontal_FullColourREVERSED_RGB-Photoroom.png": "https://xaweuetsmhnwuqtqnicu.supabase.co/storage/v1/object/public/images/FT_Horizontal_FullColourREVERSED_RGB-Photoroom.png",
+  "reut.png": "https://xaweuetsmhnwuqtqnicu.supabase.co/storage/v1/object/public/images/reut.png",
+  "images-Photoroom.png": "https://xaweuetsmhnwuqtqnicu.supabase.co/storage/v1/object/public/images/images-Photoroom.png",
+  "view2x-Photoroom.png": "https://xaweuetsmhnwuqtqnicu.supabase.co/storage/v1/object/public/images/view2x-Photoroom.png",
+  "Washington-Post-Photoroom.png": "https://xaweuetsmhnwuqtqnicu.supabase.co/storage/v1/object/public/images/Washington-Post-Photoroom.png",
+  "bbb-Photoroom.png": "https://xaweuetsmhnwuqtqnicu.supabase.co/storage/v1/object/public/images/bbb-Photoroom.png"
+};
